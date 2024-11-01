@@ -1,0 +1,575 @@
+.genghao{
+  display: inline-flex;
+}
+
+
+.content {
+  font-family: "微软雅黑", Arial, "宋体";
+  font-size: 14px;
+  line-height: 1em;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #2489f6;
+}
+
+dl,
+ul,
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.ques-detail {}
+
+.ques-detail ul li {
+  margin-bottom: 20px;
+  border: 1px solid #dadada;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.ques-detail ul li:last-child {
+  margin-bottom: 0;
+}
+
+
+table.composition {
+  border-collapse: collapse;
+  text-align: left;
+  margin: 2px;
+  width: 98%;
+}
+
+table.composition th,
+table.composition td {
+  line-height: 30px;
+  white-space: normal;
+  word-break: break-all;
+  border-width: 0px;
+  vertical-align: middle;
+}
+
+table.composition2 {
+  border-collapse: collapse;
+  width: auto
+}
+
+table.composition2 th,
+table.composition2 td {
+  text-align: left;
+  line-height: 30px;
+  white-space: normal;
+  word-break: break-all;
+  border: none;
+  border-width: 0px;
+  vertical-align: middle;
+}
+
+.MathJye {
+  vertical-align: middle;
+  border: 0 none;
+  direction: ltr;
+  display: inline-flex;
+  align-items: center;
+  float: none;
+  font-family: 'Times New Roman', '宋体';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  text-transform: none;
+  white-space: nowrap;
+  word-spacing: normal;
+  word-wrap: normal;
+  -webkit-text-size-adjust: none;
+}
+
+.MathJye div,
+.MathJye span {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-align: left;
+  height: auto;
+  white-space: normal;
+}
+
+.MathJye table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  border: 0;
+  float: none;
+  display: inline-block;
+  zoom: 0;
+}
+
+.MathJye table td {
+  padding: 0;
+  font-size: inherit;
+  line-height: normal;
+  white-space: nowrap;
+  border: 0 none;
+  width: auto;
+  _height: auto;
+}
+
+.MathJye_mi {
+  font-style: italic;
+}
+
+.flipv {
+  -ms-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
+.fliph {
+  -ms-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+}
+
+.mathjye-bold {
+  font-weight: 800
+}
+
+.mathjye-del {
+  text-decoration: line-through
+}
+
+.mathjye-underline {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+.mathjye-underpline {
+  border-bottom: 2px dotted #000;
+  padding-bottom: 3px;
+}
+
+.mathjye-underpoint {
+  background: url(http://img.jyeoo.net/images/formula/point.png) no-repeat center bottom;
+  padding-bottom: 4px;
+}
+
+.mathjye-underpoint2 {
+  border-bottom: 2px dotted #000;
+  padding-bottom: 3px;
+}
+
+
+.mathjye-underwave {
+  background: url(http://img.jyeoo.net/images/formula/wave.png) bottom repeat-x;
+  padding-bottom: 4px;
+}
+
+
+.mathjye-alignleft {
+  display: block;
+  text-align: left;
+}
+
+.mathjye-aligncenter {
+  display: block;
+  text-align: center;
+}
+
+.mathjye-alignright {
+  display: block;
+  text-align: right;
+}
+
+
+/*试题*/
+.artpreview fieldset {
+  padding-top: 10px;
+  font-size: 14px;
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+  line-height: 24px;
+  font-family: 'Times New Roman', 宋体, sans-serif;
+  position: relative;
+}
+
+.artpreview fieldset legend {
+  padding: 5px 0;
+  display: block;
+  margin: 5px;
+  background: #f1f1f1;
+  color: #000;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.queserror {
+  border: 1px dotted #f00;
+  padding: 2px;
+}
+
+fieldset.quesborder {
+  display: block;
+  padding: 0;
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-break: break-all;
+  margin: 0;
+}
+
+fieldset.queserror {
+  border: 1px solid #f00;
+  font-size: 12px;
+  padding: 2px;
+  margin-bottom: 1px;
+}
+
+fieldset.quesborder td,
+fieldset.queserror td {
+  line-height: 16px;
+}
+
+fieldset.quesborder em,
+fieldset.queserror em {
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+}
+
+fieldset.thiserror1 {
+  border: 1px solid #f00;
+}
+
+fieldset.thiserror1 legend {
+  border: 4px solid #f00;
+}
+
+fieldset.thiserror2 {
+  border: 1px solid #ADCD3C;
+}
+
+fieldset.thiserror2 legend {
+  border: 4px solid #ADCD3C;
+}
+
+fieldset.thisques {
+  border: 1px solid blue;
+}
+
+fieldset.thison {
+  border: 1px solid #A9C9E2;
+}
+
+fieldset.thison div.border {
+  border: 1px solid #ADCD3C;
+  background-color: #F2FDDB;
+}
+
+fieldset,
+img {
+  border: 0 none;
+}
+
+table.thison {
+  border: 1px solid #00F;
+}
+
+table.thiserr {
+  border: 1px solid #F00;
+}
+
+fieldset.thisvip1 {
+  border: 1px solid #00F;
+}
+
+fieldset.thisvip1 legend {
+  border: 4px solid #00F;
+}
+
+fieldset.status17 {
+  border: 1px solid #ff00ff;
+}
+
+fieldset.status17 legend {
+  border: 4px solid #ff00ff;
+}
+
+.selectoption {
+  vertical-align: middle;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.selectoption:hover {
+  color: #EA8511;
+}
+
+.selectoption label {
+  padding: 4px;
+  line-height: 24px;
+}
+
+fieldset.quesbordere {
+  border: 2px dotted #f00;
+}
+
+.answer {
+  border: 1px dotted #ffffff;
+}
+
+ol.answer li,
+ul.answer li {
+  padding: 1px;
+  font-size: 14px;
+}
+
+ol.answer li:hover {
+  background: #f2f2f2;
+}
+
+.collapseContainerPanel {
+  border: 0;
+}
+
+.collapsePanelHeader {
+  height: 30px;
+  font-weight: bold;
+  padding: 6px 0 0 0;
+}
+
+.collapseHeaderContent {
+  float: left;
+  padding-left: 5px;
+}
+
+.collapseContent {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.pt0 {
+  padding: 2px 0 5px 0;
+  font-size: 14px;
+  font-family: "黑体", sans-serif;
+  font-weight: 700;
+}
+
+.pt1 {
+  overflow: hidden;
+  zoom: 1;
+  clear: both;
+  line-height: 25px;
+  font-size: 14px;
+  padding: 20px;
+  position: relative;
+  word-break: break-word;
+}
+
+fieldset.quesborder .pt1 em {
+  position: static;
+}
+
+.pt1 img {
+  position: relative;
+}
+
+.pt2 {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.pt3,
+.pt4,
+.pt5,
+.pt6,
+.pt7 {
+  clear: both;
+  zoom: 1;
+  position: relative;
+  padding: 0px 20px 20px 80px;
+}
+
+.pt8 a:link,
+.pt8 a:visited {
+  margin-right: 10px;
+  padding: 2px 5px;
+}
+
+.pt8 a:hover {
+  background: #fc0;
+}
+
+.pt9 {
+  padding: 20px;
+  border: 0 none;
+  color: #999999;
+  font-size: 12px;
+}
+
+.fieldtip {
+  height: 36px;
+  line-height: 36px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #dadada;
+  padding: 0 20px;
+  color: #666666;
+  position: relative;
+  font-size: 12px;
+  border-radius: 0 0 10px 10px;
+}
+
+.newFieldtip .pt1,
+.newFieldtip .pt2,
+.newFieldtip .pt3,
+.newFieldtip .pt4,
+.newFieldtip .pt5,
+.newFieldtip .pt6,
+.newFieldtip .pt7,
+.newFieldtip .pt8,
+.newFieldtip.pt9,
+.newFieldtip+.fieldtip {
+  padding: 0;
+}
+
+fieldset img {
+  max-width: 100%;
+}
+
+.fieldtip-left {
+  float: left;
+}
+
+/* .fieldtip-left>* {
+  margin-right: 20px;
+} */
+
+.fieldtip-right {
+  float: right;
+}
+
+/* .fieldtip-right>* {
+  margin-left: 20px;
+  display: inline-block;
+  color: #666666;
+} */
+
+.fieldtip .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #ff8a00;
+  line-height: 18px;
+  min-width: 28px;
+  padding: 0 5px;
+}
+
+.fieldtip .btn:hover,
+.fieldtip .btn:active,
+.fieldtip .btn:active:hover,
+.fieldtip .btn:hover {
+  color: #ffffff;
+  background-color: #faad4a;
+}
+
+/*填空题*/
+.quizPutTag {
+  display: inline-block;
+  padding: 3px 10px 1px 10px;
+  margin: 0 3px;
+  font-size: 14px;
+  min-width: 1em;
+  min-height: 16px;
+  line-height: 18px;
+  height: auto;
+  border-bottom: 1px solid #0033FF;
+  text-decoration: none;
+  zoom: 1;
+  color: #127176;
+  word-break: break-all;
+}
+
+.quizPutTag:hover {
+  color: #f60;
+}
+
+.quizPutTag img {
+  cursor: pointer;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.sanwser {
+  padding: 4px 10px;
+  margin: 0px;
+  border: 1px solid #ADCD3C;
+  background-color: #F2FDDB;
+  color: #000;
+  display: none;
+}
+
+/*答案*/
+.selectoption label.s,
+div.s {
+  border: 1px solid #91cbed;
+  background-color: #deeeff;
+  display: inline-block;
+}
+
+.selectoption label.s.sh,
+div.s.sh {
+  margin: 1px;
+  border: none;
+  background: none;
+}
+
+del {
+  text-decoration: none;
+  color: #f00;
+  font-style: normal;
+  font-weight: normal;
+}

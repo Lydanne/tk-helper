@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view style="margin: 5px;background-color: #fff;border: 1px solid #333;min-height: 100px;">
+  <view style="font-size: 15px;font-weight: bold;border-bottom: 1px solid #333;"> # 内容</view>
+  <mp-html content="{{source.Content}}"/>
+</view>
+<view style="margin: 5px;background-color: #fff;border: 1px solid #333;min-height: 100px;">
+  <view style="font-size: 15px;font-weight: bold;border-bottom: 1px solid #333;"> # 解析</view>
+  <mp-html content="{{source.Analyse}}"/>
+</view>
+<view style="margin: 5px;background-color: #fff;border: 1px solid #333;min-height: 100px;">
+  <view style="font-size: 15px;font-weight: bold;border-bottom: 1px solid #333;"> # 答案</view>
+  <mp-html content="{{source.Method}}"/>
+</view>

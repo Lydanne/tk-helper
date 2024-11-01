@@ -1,0 +1,5 @@
+<view style="border: 1px solid #333;height: 300px;margin: 10px;padding: 3px;">
+  <textarea value="" maxlength="-1" style="height: 100%;" bindinput="onInput"/>
+</view>
+<button style="margin-top: 10px;" bindtap="onToParseJYW">解析菁优网</button>
+<button style="margin-top: 10px;" bindtap="onToParseXB">解析小白</button>

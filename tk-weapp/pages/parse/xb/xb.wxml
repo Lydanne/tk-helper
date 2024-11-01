@@ -1,0 +1,16 @@
+<!--pages/xb/xb.wxml-->
+<view wx:for="{{sources}}" style="border: 1px solid red;margin: 0 2px;margin-bottom: 10px;">
+  <view style="font-size: 15px;font-weight: bold;border-bottom: 1px solid red;background-color: yellow;"> # 第 {{index+1}} 题</view>
+  <view wx:if="{{item.question}}" style="margin: 5px;background-color: #fff;border: 1px dotted #333;">
+    <view style="font-size: 12px;font-weight: bold;border-bottom: 1px dotted #333;"> # 内容</view>
+    <mp-html content="{{item.question}}"/>
+  </view>
+  <view wx:if="{{item.analysis}}" style="margin: 5px;background-color: #fff;border: 1px dotted #333;">
+    <view style="font-size: 12px;font-weight: bold;border-bottom: 1px dotted #333;"> # 解析</view>
+    <mp-html content="{{item.analysis}}"/>
+  </view>
+  <view wx:if="{{item.answer}}" style="margin: 5px;background-color: #fff;border: 1px dotted #333;">
+    <view style="font-size: 12px;font-weight: bold;border-bottom: 1px dotted #333;"> # 答案</view>
+    <mp-html content="{{item.answer}}"/>
+  </view>
+</view>

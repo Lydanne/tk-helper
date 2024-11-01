@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/parse/jyw/jyw",
+    "pages/parse/xb/xb"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
